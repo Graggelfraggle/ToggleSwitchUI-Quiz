@@ -1,0 +1,43 @@
+.Button {
+	width:307px;
+	height:45px;
+	margin:19px 0px 0px 204px;
+	border-radius: 100px;
+  	border: solid 1px #fbfbfb;
+}
+.InnerButton{
+	width:170px;
+	height:45px;
+	border-radius: 100px;
+	background-color:#fbfbfb;
+	opacity: .50;
+	margin:0px 0px 0px 0px;
+	z-index:30;
+}
+.InnerButton:hover{
+	opacity: .40;
+}
+.InnerRight{
+	width:170px;
+	height:45px;
+	border-radius: 100px;
+	background-color:#fbfbfb;
+	opacity: .50;
+	margin:0px 0px 0px 139px;
+	animation-name: slideright;
+	animation-duration:3s;
+	z-index:30;	
+}
+.InnerRight:hover{
+	opacity: .40;
+}
+
+@keyframes slideright {
+	from{
+		margin:0px 0px 0px 0px;
+		
+	}
+	to{
+		margin:0px 0px 0px 139px;
+	}
+}
